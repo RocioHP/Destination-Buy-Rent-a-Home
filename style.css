@@ -186,14 +186,13 @@ p {
 }
 
 .hero-image img {
-    width: 100%;
+    width: 80%;
     height: auto;
-    max-width: 100%;
+    max-width: 80%;
     object-fit: cover;
     border-radius: 15px;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
-    margin: 2rem 0;
-    padding: 1rem 0;
+    
     transition: all 0.3s ease;
 }
 
