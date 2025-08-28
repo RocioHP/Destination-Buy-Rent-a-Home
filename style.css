@@ -88,7 +88,7 @@ p {
     left: 0;
     right: 0;
     z-index: 1000;
-    padding: 15px 0;
+    padding: 10px 0;
 }
 
 .header-content {
@@ -97,10 +97,10 @@ p {
     justify-content: space-between;
 }
 
-.logo h2 {
-    color: #7EC04B;
+.logo img {
+    height: 3.5rem;
+    width: auto;
     margin: 0;
-    font-size: 1.5rem;
 }
 
 .nav-menu ul {
@@ -173,17 +173,24 @@ p {
     justify-content: center;
 }
 
-.hero-image-placeholder {
-    text-align: center;
-    color: #7EC04B;
-    font-size: 4rem;
-    opacity: 0.1;
+.hero-image {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-.hero-image-placeholder p {
-    font-size: 1rem;
-    margin-top: 1rem;
-    color: #666;
+.hero-image img {
+    max-width: 100%;
+    max-height: 100%;
+    width: auto;
+    height: auto;
+    object-fit: cover;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    margin: 2rem 0;
+    padding: 1rem 0;
 }
 
 /* Trust & Security Section */
@@ -257,7 +264,7 @@ p {
 
 .services-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    grid-template-columns: repeat(2, 1fr);
     gap: 2rem;
 }
 
